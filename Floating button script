@@ -1,0 +1,61 @@
+<script>
+  // Wait until DOM is fully loaded
+  document.addEventListener("DOMContentLoaded", function () {
+    // Create wrapper
+    var btnGroup = document.createElement("div");
+    btnGroup.style.position = "fixed";
+    btnGroup.style.bottom = "20px";
+    btnGroup.style.left = "50%";
+    btnGroup.style.transform = "translateX(-50%)";
+    btnGroup.style.display = "flex";
+    btnGroup.style.gap = "12px";
+    btnGroup.style.zIndex = "9999";
+    btnGroup.style.flexWrap = "wrap";
+    btnGroup.style.justifyContent = "center";
+
+    // Define buttons
+    var buttons = [
+      {
+        text: "🔥 View Deals",
+        link: "https://beatzde4.blogspot.com/p/get-cashback-free-shipping",
+        bg: "#1e90ff"
+      },
+      {
+        text: "💬 Contact Us",
+        link: "https://take.app/debeatzgh/p/clz5jy4ek00jwtnjp8tnpo6bc",
+        bg: "#28a745"
+      },
+      {
+        text: "📄 Homepage",
+        link: "https://debeatzgh.wordpress.com/",
+        bg: "#ff6600"
+      }
+    ];
+
+    // Create each button
+    buttons.forEach(function (btn) {
+      var a = document.createElement("a");
+      a.href = btn.link;
+      a.innerText = btn.text;
+      a.target = "_blank";
+      a.style.background = btn.bg;
+      a.style.color = "#fff";
+      a.style.padding = "12px 16px";
+      a.style.borderRadius = "30px";
+      a.style.textDecoration = "none";
+      a.style.fontSize = "14px";
+      a.style.boxShadow = "0 4px 10px rgba(0, 0, 0, 0.3)";
+      a.style.transition = "background 0.3s ease";
+      a.onmouseover = function () {
+        a.style.opacity = "0.9";
+      };
+      a.onmouseout = function () {
+        a.style.opacity = "1";
+      };
+      btnGroup.appendChild(a);
+    });
+
+    // Inject into body
+    document.body.appendChild(btnGroup);
+  });
+</script>
