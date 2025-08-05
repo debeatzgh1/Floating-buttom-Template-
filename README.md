@@ -1,7 +1,9 @@
 # Floating Buttons Script 🚀
 
 This repository contains a **JavaScript snippet** that dynamically injects a **bottom-center floating button group** on any website, ideal for Blogger pages, WordPress themes, or any HTML-based site.
-
+<p align="center">
+  <img src="https://debeatzgh.wordpress.com/wp-content/uploads/2025/07/designacleanandmodernpromotionalgraphicshowcasingfloatingactionbuttonsonawebpageinterface7387608098757600163.jpg" alt="Firebase Front-End Components Preview" width="600"/>
+</p>
 ---
 
 ## 🎯 Features
