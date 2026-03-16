@@ -53,7 +53,7 @@
         }
 
         .master-banner {
-            width: 350px; height: 50px; background: var(--glass);
+            width: 320px; height: 50px; background: var(--glass);
             backdrop-filter: blur(15px); border: 1px solid var(--border);
             border-radius: 50px; display: flex; align-items: center;
             justify-content: space-between; padding: 0 6px 0 15px;
