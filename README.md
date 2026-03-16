@@ -86,7 +86,7 @@
 
         /* --- 3. SOCIAL & UTILITY DOCK --- */
         .social-dock {
-            position: fixed; right: 25px; bottom: 30px;
+            position: fixed; left: 25px; bottom: 30px;
             display: flex; flex-direction: column; align-items: center; gap: 10px;
             background: var(--glass); padding: 12px 10px; border-radius: 50px;
             border: 1px solid var(--border); backdrop-filter: blur(15px);
